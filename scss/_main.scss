@@ -1,0 +1,13 @@
+/* ====== MAIN ====== */
+
+main {
+  section {
+    padding: 4em 1em;
+    background-color: $primary-color;
+    h2:first-of-type {
+      margin-top: 0;
+    }
+  } & :nth-of-type(even) {
+    background-color: $secondary-color;
+  }
+}

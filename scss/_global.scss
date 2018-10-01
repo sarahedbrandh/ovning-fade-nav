@@ -1,0 +1,20 @@
+/* ====== GLOBAL ====== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-stack;
+  font-size: $base-font-size;
+  background-color: $tertiary-color;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.fa-heart {
+  color: $quaternary-color;
+}
