@@ -8,7 +8,7 @@ header {
   color: $primary-color;
   background-color: $septenary-color;
   position: relative;
-  & :after {
+  &:after {
     content: "";
     position: absolute;
     top: 0;

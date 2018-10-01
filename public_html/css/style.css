@@ -420,7 +420,7 @@ header {
   background-color: rgba(0, 0, 0, 0.3);
   position: relative;
 }
-header :after {
+header:after {
   content: "";
   position: absolute;
   top: 0;
@@ -451,7 +451,14 @@ main section:nth-of-type(even) {
   background-color: #efefef;
 }
 main a {
+  color: #272727;
+  font-weight: bold;
+}
+main a:hover {
   color: gold;
+}
+main h1, main h2, main h3, main h4, main h5, main h6, main p {
+  color: #272727;
 }
 main p {
   font-size: 1.2em;

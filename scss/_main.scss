@@ -8,15 +8,22 @@ main {
       margin-top: 0;
     } 
   }
-  
+
   section:nth-of-type(even) {
     background-color: $secondary-color;
   }
 
   a {
-    color: $quaternary-color;
+    color: $quinary-color;
+    font-weight: bold;
+    &:hover {
+      color: $quaternary-color;
+  }
   }
 
+  h1, h2, h3, h4, h5, h6, p {
+    color: $quinary-color;
+  }
   p {
     font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
