@@ -359,18 +359,21 @@ body {
   height: auto;
 }
 
-.img-half {
-  width: 50%;
-}
-
-.float-right {
+.img-float-right {
   float: right;
+  margin: 0 0 0.5em 1.2em;
 }
 
-.float-left {
+.img-float-left {
   float: left;
+  margin: 0 1.2em 1.5em 0em;
 }
 
+@media only screen and (min-width: 960px) {
+  .img-half {
+    max-width: 50%;
+  }
+}
 /* ====== NAVBAR ====== */
 nav {
   background-color: gold;
@@ -441,8 +444,11 @@ header:after {
 
 /* ====== MAIN ====== */
 main section {
-  padding: 4em;
+  padding: 4em 1em;
   background-color: white;
+}
+main section h2 {
+  font-size: 3em;
 }
 main section h2:first-of-type {
   margin-top: 0;
@@ -469,6 +475,11 @@ main p {
           hyphens: auto;
 }
 
+@media only screen and (min-width: 960px) {
+  main section {
+    padding: 4em;
+  }
+}
 /* ====== FOOTER ====== */
 footer {
   background-color: #272727;

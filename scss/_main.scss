@@ -2,8 +2,11 @@
 
 main {
   section {
-    padding: 4em;
+    padding: 4em 1em;
     background-color: $primary-color;
+    h2 {
+      font-size: 3em;
+    }
     h2:first-of-type {
       margin-top: 0;
     } 
@@ -29,5 +32,13 @@ main {
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
     hyphens: auto;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  main {
+    section {
+      padding: 4em;
+    }
   }
 }
