@@ -361,12 +361,12 @@ body {
 
 .img-float-right {
   float: right;
-  margin: 0 0 0.5em 1.2em;
+  margin: 0 0 1.2em 1.2em;
 }
 
 .img-float-left {
   float: left;
-  margin: 0 1.2em 1.5em 0em;
+  margin: 0 1.2em 1.2em 0em;
 }
 
 @media only screen and (min-width: 960px) {
