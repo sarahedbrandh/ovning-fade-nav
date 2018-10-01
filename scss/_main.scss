@@ -2,12 +2,25 @@
 
 main {
   section {
-    padding: 4em 1em;
+    padding: 4em;
     background-color: $primary-color;
     h2:first-of-type {
       margin-top: 0;
-    }
-  } & :nth-of-type(even) {
+    } 
+  }
+  
+  section:nth-of-type(even) {
     background-color: $secondary-color;
+  }
+
+  a {
+    color: $quaternary-color;
+  }
+
+  p {
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    hyphens: auto;
   }
 }

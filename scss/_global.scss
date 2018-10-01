@@ -18,3 +18,20 @@ body {
 .fa-heart {
   color: $quaternary-color;
 }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-half {
+  width: 50%;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
